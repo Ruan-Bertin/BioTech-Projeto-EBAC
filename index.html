@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BioTech</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header class="border-bottom ">
+    <div class="navbar navbar-expand-lg">
+      <div class="container">
+        <img src="./images/icon.png" alt="Logo do site" id="logo">
+        <h1>BioTech</h1>
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="offcanvas offcanvas-end" id="menu" >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body justify-content-end">
+            <ul class="nav navbar-nav nav-pills text-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link item-menu">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link item-menu">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link item-menu">Serviços</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a data-bs-toggle="dropdown" class="nav-link dropdown-toggle item-menu" href="#">Contato</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Telefone</a></li>
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div id="carousel" class="carousel slide carousel-fade mt-2" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div data-bs-interval="3000" class="carousel-item active">
+            <img src="./images/imagem1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img src="./images/imagem2.png" class="d-block w-100" alt="...">
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img src="./images/imagem3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </main>
+  <section>
+    <div class="container mt-4">
+      <div class="row mb-3">
+        <div class="col-lg-4 col-md-6 mb-3 card-3d">
+          <div class="card text-bg-dark">
+            <img src="./images/cards.jpg" alt="">
+            <div class="card-img-overlay">
+              <h4 class="card-title pb-2">Tecnologia e meio ambiente</h4>
+              <h5 class="card-subtitle pb-2">Como um ajudar o outro?</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolore quasi necessitatibus quos architecto possimus quo. Veniam sunt voluptas similique, repudiandae in error assumenda optio sequi soluta molestiae aspernatur iste.</p>
+              <a href="#" class="btn btn-success mt-1">Botão link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3 card-3d">
+          <div class="card text-bg-dark">
+            <img src="./images/cards.jpg" alt="">
+            <div class="card-img-overlay">
+              <h4 class="card-title pb-2">Green IT</h4>
+              <h5 class="card-subtitle pb-2">O que é o TI verde?</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolore quasi necessitatibus quos architecto possimus quo. Veniam sunt voluptas similique, repudiandae in error assumenda optio sequi soluta molestiae aspernatur iste.</p>
+              <a href="#" class="btn btn-success mt-1">Botão link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3 card-3d">
+          <div class="card text-bg-dark">
+            <img src="./images/cards.jpg" alt="">
+            <div class="card-img-overlay">
+              <h4 class="card-title pb-2">Sustentabilidade</h4>
+              <h5 class="card-subtitle pb-2">Qual sua relação com a tecnologia?</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, dolore quasi necessitatibus quos architecto possimus quo. Veniam sunt voluptas similique, repudiandae in error assumenda optio sequi soluta molestiae aspernatur iste.</p>
+              <a href="#" class="btn btn-success mt-1">Botão link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Av tropical, 150 - Bairro verde - Manaus - Amazônia</p>
+  </footer>
+  <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

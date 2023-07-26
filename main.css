@@ -1,0 +1,50 @@
+
+header{
+  background: rgb(46,228,113);
+  background: linear-gradient(326deg, rgba(46,228,113,0.5522584033613445) 16%, rgba(12,115,46,0.35898109243697474) 93%);
+}
+
+body{
+  background-color: #7fffd43d;
+}
+
+footer{
+  height: 7vh;
+  background: rgb(46,228,113);
+  background: linear-gradient(326deg, rgba(46,228,113,0.5522584033613445) 16%, rgba(12,115,46,0.35898109243697474) 93%);
+  color: #242222;
+  text-align: center;
+  line-height: 7vh;
+}
+
+#logo{
+  border-radius: 25px;
+}
+
+#logo:hover{
+  transform: rotateX(41deg) rotateY(15deg) rotateZ(0deg);
+  transition: 800ms;
+}
+
+.item-menu:hover{
+  background-color: #0d3804;
+  border-radius: 5px;
+  color: #fff;
+  transition: 700ms;
+}
+
+.card-img-overlay{
+  background-color: rgba(0,0,0,0.7);
+}
+
+.card-3d:hover{
+  transform: scale(1.05);
+  transition: 700ms;
+}
+
+@media screen and (max-width:1999px) and (min-width:992px){
+  .card-3d img{
+    height: 360px;
+  }
+
+}
